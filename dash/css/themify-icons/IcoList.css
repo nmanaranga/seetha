@@ -1,0 +1,80 @@
+#blocker{
+	/*display: block;*/
+	opacity: 0.05;
+}
+
+#btnSetIco{
+	cursor: pointer;
+	display: block;
+	height: 65px;
+	width: 65px;
+	border: 1px solid red;
+	font-size: 50px;
+	text-align: center;
+	position: relative;	
+}
+#btnSetIco:before{
+	margin-top: 1px;
+	display: block;
+	padding: 5px;
+	line-height: 50px;
+	width: 50px;
+	border: 1px solid black;
+	font-size: 50px;
+	text-align: center;
+	position: relative;
+}
+
+#addIconsMain{
+	display: none;
+	width: 800px;
+	height: 500px;
+	background-color: white;
+	position: absolute;
+/*	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;*/
+	/*margin: auto;*/
+	padding: 20px 5px;
+	z-index: 999;
+}
+
+#addIcons{
+	width: 800px;
+	height: 450px;
+	background-color: white;
+	overflow-x: auto;
+	z-index: 999;
+}
+
+.icon-container {
+	width: 10px; 
+	height: 10px; 
+	padding: 15px;
+	float: left; 
+	position: relative;
+	text-align: left;
+	cursor: pointer;
+}
+.icon-container [class^="ti-"], 
+.icon-container [class*=" ti-"] {
+
+	color: #000;
+	position: absolute;
+	margin-top: 3px;
+	background-color: rgba(255,255,255,0);
+	/*border: solid 1px black;*/
+	transition: .3s;
+}
+.icon-container:hover [class^="ti-"],
+.icon-container:hover [class*=" ti-"] {
+
+	top: 5;
+	left: 5;
+	margin: auto;	
+	background-color: rgba(255,255,255,1);
+	font-size: 3em;
+	/*margin-top: -5px;*/
+	z-index: 999;
+}

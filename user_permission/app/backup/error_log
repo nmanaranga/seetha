@@ -1,0 +1,15 @@
+[21-Oct-2014 00:04:55 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'softmast_root'@'localhost' (using password: YES) in /home/tdmclk/public_html/backup/pr_bakup.php on line 21
+[21-Oct-2014 00:04:55 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'tdmclk'@'localhost' (using password: NO) in /home/tdmclk/public_html/backup/pr_bakup.php on line 109
+[21-Oct-2014 00:04:55 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tdmclk/public_html/backup/pr_bakup.php on line 109
+[21-Oct-2014 00:04:55 America/Chicago] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/tdmclk/public_html/backup/pr_bakup.php on line 111
+[21-Oct-2014 00:05:08 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'softmast_root'@'localhost' (using password: YES) in /home/tdmclk/public_html/backup/pr_bakup.php on line 21
+[21-Oct-2014 00:05:08 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'tdmclk'@'localhost' (using password: NO) in /home/tdmclk/public_html/backup/pr_bakup.php on line 109
+[21-Oct-2014 00:05:08 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/tdmclk/public_html/backup/pr_bakup.php on line 109
+[21-Oct-2014 00:05:08 America/Chicago] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/tdmclk/public_html/backup/pr_bakup.php on line 111
+[21-Oct-2014 00:54:18 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home/tdmclk/public_html/backup/view.php on line 5
+[21-Oct-2014 00:56:51 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home/tdmclk/public_html/backup/view.php on line 5
+[21-Oct-2014 00:57:03 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/tdmclk/public_html/backup/view.php on line 7
+[21-Oct-2014 01:32:06 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/tdmclk/public_html/backup/view.php:2) in /home/tdmclk/public_html/backup/view.php on line 4
+[21-Oct-2014 01:32:28 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/tdmclk/public_html/backup/view.php:1) in /home/tdmclk/public_html/backup/view.php on line 3
+[21-Oct-2014 01:45:38 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/tdmclk/public_html/backup/view.php on line 152
+[21-Oct-2014 01:47:02 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/tdmclk/public_html/backup/view.php on line 164

@@ -1,0 +1,239 @@
+/*body {
+    background: #eee url(../img/bckg3.jpg) no-repeat center center fixed; ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-height: 100px !important;
+  
+}
+
+#loginbox {
+    margin-top: 30px;
+}
+
+#loginbox > div:first-child {        
+    padding-bottom: 10px;    
+}
+
+.iconmelon {
+    display: block;
+    margin: auto;
+}
+
+#form > div {
+    margin-bottom: 25px;
+}
+
+#form > div:last-child {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.panel {    
+    background-color: transparent;
+}
+
+.panel-body {
+    padding-top: 30px;*/
+    /*background-color: rgba(200,200,100,.4);*/
+    /*background-color: rgba(255,255,255,.3);
+}
+
+#particles {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;                        
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2;
+}
+
+.iconmelon,
+.im {
+  position: relative;
+  width: 150px;
+  display: block;
+  fill: #525151;
+}
+
+.iconmelon:after,
+.im:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}*/
+
+body {
+  width:100px;
+  height:100px;
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  color:#CCC;
+}
+
+.spacing {
+  padding-top:7px;
+  padding-bottom:7px;
+}
+.middlePage {
+    width: 1000px;
+    height: 550px;
+    position: absolute;
+    top:0;
+    bottom:10;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.panel-body {
+  height:600px; 
+
+}
+.panel {    
+    background-color: transparent;
+}
+#f,#a{
+  position:absolute;
+  margin: 21% 27%;
+}
+
+/*-------------------------------------------*/
+#g_logo{
+  margin: 0% 55%;
+}
+.smtk{
+  position: absolute;
+  margin: 58% 70%;
+
+}
+.logo{
+  font-family: 'arial';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  color:#2530FF;
+  padding: 5px 30px;
+}
+.logo span{
+  color: #577DFF;
+  font-size: 18px;
+}
+li{
+ list-style: none;
+}
+.blueberry { margin: 0 auto; }
+.blueberry .slides {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.blueberry .slides li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.blueberry .slides li img {
+  display: block;
+  width: 100%;
+  max-width: none;
+}
+.blueberry .slides li.active { display: block; position: relative; }
+.blueberry .crop li img { width: auto; }
+
+.blueberry .pager {
+  height: 40px;
+  text-align: center;
+}
+.blueberry .pager li { display: inline-block; }
+.blueberry .pager li a,
+.blueberry .pager li a span {
+  display: block;
+  height: 4px;
+  width: 4px;
+}
+.blueberry .pager li a {
+  
+-webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+.blueberry .pager li a span {
+  overflow: hidden;
+  background: #c0c0c0;
+  text-indent: -9999px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.blueberry .pager li.active a span { background: #404040; }
+ul {
+  margin: 0;
+  border: 0;
+  padding:0;
+}
+/*-----------------------------*/
+
+#flip1 li div.myClass{
+    background-color:navy;
+}
+
+.our_msg{
+  font-size: 30px;
+  color: red;
+  text-align: center;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, th, td {
+    color: #404040;
+}
+h4, h5, h6, .summary-view td {
+    font-family: "Open Sans Regular";
+}
+h4 {
+    font-size: 1.06em;
+    line-height: 1em;
+}
+
+h3 {
+    font-size: 1.30em;
+    line-height: 1em;
+}
+
+h1, h2, h3, h4, h5, h6, ul {
+    font-weight: normal;
+    margin: 0;
+    /*padding: 5px*/;
+}
+
+.hh{
+  padding-top: 10px;
+  padding-left: 10px;
+  font-family: Open Sans; 
+
+}
+
+.h{
+  padding-left: 10px;
+  padding-bottom: 10px;
+   font-family: "Trebuchet MS"; 
+}
+
+.bot{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

@@ -1,0 +1,212 @@
+/**
+ *********************************************
+ * Prototype of styles for horizontal CSS-menu
+ * @data 30.06.2009
+ *********************************************
+ * (X)HTML-scheme:
+ *  <div id="menu">
+ *      <ul class="menu">
+ *          <li><a href="#" class="parent"><span>level 1</span></a>
+ *              <ul>
+ *                  <li><a href="#" class="parent"><span>level 2</span></a>
+ *                      <ul><li><a href="#"><span>level 3</span></a></li></ul>
+ *                  </li>
+ *              </ul>
+ *          </li>
+ *          <li class="last"><a href="#"><span>level 1</span></a></li>
+ *      </ul>
+ *  </div>
+ *********************************************
+ */
+@font-face {
+    /*font-family: 'HelveticaNeueLT67MdCnRegular';*/
+    src: url('helvetica_lt_67_medium_condensed-webfont.eot');
+    src: url('helvetica_lt_67_medium_condensed-webfont.eot?iefix') format('eot'),
+         url('helvetica_lt_67_medium_condensed-webfont.woff') format('woff'),
+         url('helvetica_lt_67_medium_condensed-webfont.ttf') format('truetype'),
+         url('helvetica_lt_67_medium_condensed-webfont.svg#webfontWmNMotVp') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* menu::base */
+
+div#menu {
+    /*height:103px; background:url(../images/menu_bg.jpg) repeat-x;*/
+    /*-moz-box-shadow : 0px 0px 5px #000;*/
+    /*box-shadow : 0px 0px 5px #000;*/
+    /*-webkit-box-shadow : 0px 0px 5px #000;*/ width:750px; 
+}
+
+div#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+div#menu ul.menu {
+    padding-left: 30px;
+}
+
+div#menu li {
+	width: 140px;
+    position: relative; 
+    z-index: 9;
+    margin: 0;
+    padding: 0 5px 0 0;
+    display: block;
+	text-align: center;
+    float: left;
+}
+div#menu li:hover>ul {
+    left: -2px;
+}
+
+div#menu a {
+    position: relative; 
+    z-index: 10; width:78px;
+    height: 150px;
+    display: block;
+    float: left;
+    line-height: 41px;
+    text-decoration: none;
+    font: normal 12px Trebuchet MS;
+    color:#000;
+}
+div#menu a:hover, div#menu a:hover span { color: #fff; }
+div#menu a:hover { color:#fff; }
+div#menu li.current a {}
+
+
+
+div#menu span {
+    display: block;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: 95% 0;
+}
+
+div#menu ul li span {
+font-family: Arial, Helvetica, sans-serif; 
+font-size:18px; 
+text-transform:uppercase; 
+color:#333;
+}
+
+div#menu ul ul a.parent span {
+    background-position:95% 8px; color: #000 !important;
+    background-image:url(../images/item-pointer.png);
+}
+div#menu ul ul a.parent:hover span {
+    background-image: url(images/item-pointer-mover.gif);
+}
+
+/* menu::level1 */
+div#menu a {
+    padding: 0 10px 0 10px;
+    line-height: 30px;
+    color: #e5e5e5;  
+    width: 120px;
+}
+
+div#menu span { 
+    margin-top: 5px;
+    color: #000;
+}
+div#menu ul a:hover span {
+    color: #FFF;
+}
+div#menu ul ul span {
+color: rgb(169,169,169);
+}
+div#menu ul ul a:hover span {
+color: rgb(218,219,222);
+}
+
+
+div#menu li { background:none; }
+/*div#menu li:hover{ background:#333;}*/
+div#menu li.last { background: none; }
+
+/* menu::level2 */
+div#menu ul ul li { background:#fff; text-align: left;/* border-bottom:1px solid #999;*/ padding:0; 
+    /*border-radius: 3px 3px 3px 3px;*/
+    /*margin: 1px;*/
+     }
+div#menu ul ul li:hover{ background:#6699FF; padding:0; }
+
+div#menu ul ul {
+    position: absolute;
+    top: 146px;
+    left: -999em;
+    width: 163px;
+    padding: 0 0 0 0;
+    /*background: #333;*/
+    margin-top:1px;
+    /*-moz-box-shadow : 0px 0px 5px #000;
+    -webkit-box-shadow : 0px 0px 5px #000;*/
+    opacity : 1;
+    border:1px solid #06f !important; 
+}
+div#menu ul ul a { font-family: Arial, Helvetica, sans-serif; text-transform:uppercase;
+    padding: 0 0 0 15px; width:auto !important;
+    height: auto;
+    float: none;
+    display: block;
+    line-height: 24px;
+    color:#000 !important;
+}
+div#menu ul ul li a:hover{ color:#0C0;}
+div#menu ul ul span {
+    margin-top: 0; font-size:12px;
+    padding-right: 15px;
+   
+    color: rgb(169,169,169);
+}
+div#menu ul ul a:hover span {
+    color: #fff;
+}
+div#menu ul ul li.last { background: none; }
+div#menu ul ul li {
+    width: 100%;
+}
+
+/* menu::level3 */
+div#menu ul ul ul {
+    padding: 0;
+    margin: -38px 0 0 163px !important;
+    margin-left:172px; top: 38px;
+}
+
+/* colors */
+div#menu ul ul ul { /*background: #333;*/ width: 148px !important;}
+/*div#menu ul ul ul ul { background: rgb(38,38,38); }*/
+div#menu ul ul ul ul { left:-18px !important; }
+
+/* lava lamp */
+div#menu li.back {
+	/*background:#333333;*/
+    /*background: url(images/lava.png) no-repeat right -44px !important;
+    background-image: url(images/lava.gif);*/
+   height: 95px !important;
+    margin: 5px 0 0 -5px;
+    position: absolute;
+    width: 103px !important; border-radius: 5px 5px 5px 5px;
+    z-index: 8;
+}
+div#menu li.back .left {
+	/*background:#333333;*/
+   /* background: url(images/lava.png) no-repeat top left !important;
+    background-image: url(images/lava.gif);*/
+    height: 44px;
+    margin-right: 8px; border-radius: 5px 5px 5px 5px;
+}
+
+
+
+
+/*===================================*/
+#slides{/* position: absolute;top: 200px;*/  width: 100%; background:#99ccff; height:236px; padding-top:70px;}
+#body{ position:relative; top:130px;}
+
+

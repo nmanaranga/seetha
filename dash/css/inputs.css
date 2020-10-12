@@ -1,0 +1,175 @@
+.input_txt_f, .input_amount_f, .input_number_f, .input_pass_f, .textFieldF, .input_date_down_old, .input_date_up_old, .input_date_up_future, .input_date_down_future , .input_active_num{
+    border : 1px solid #003399;
+    color : #000;
+    background-color : #fff;
+    padding : 3px;
+    font-family : Arial;
+    font-size : 12px;
+    font-weight : bold;
+    width : 150px;
+}
+
+.input_active_num{
+    width: 100px;
+    text-align: right;
+}
+
+.input_date_down_old, .input_date_up_old, .input_date_up_future, .input_date_down_future {
+    width: 100px;
+    border : 1px solid #003399;
+
+}
+
+.gdate {
+    border : none;
+    height : 15px;
+    font-family : arial;
+    font-size : 12px;
+    background-color : transparent;
+    width : 80px;
+    text-align : center;
+}
+
+.input_date,.dob {
+    border : 1px dotted #ccc;
+    color : #000;
+    background-color : #f7ecea;
+    padding : 3px;
+    font-family : Arial;
+    font-size : 12px;
+    font-weight : bold;
+    width : 150px;
+}
+
+.input_amount, .input_number, .input_pass {
+    border : 1px solid #efcfda;
+    color : #BBB;
+    background-color : #FFF;
+    padding : 3px;
+    font-family : Arial;
+    font-size : 12px;
+    font-weight : normal;
+    width : 150px;
+}
+
+.input_amount, .input_number {
+    text-align: left;
+    width : 100px;
+}
+
+.input_amount_f, .input_number_f {
+    text-align: right;
+    width : 100px;
+}
+
+.g_input_txt, .g_input_num, .g_input_amo, .g_input_num2{
+    border: none;
+    width: 100%;
+    font-size: 12px;
+}
+
+.g_input_num, .g_input_amo, .g_input_num2{
+    text-align: right;
+}
+
+select {
+    border : 1px solid #003399;
+    color : #000;
+    padding : 3px;
+    font-family : Arial;
+    font-size : 12px;
+    font-weight : bold;
+    width : 150px;
+}
+
+.select_active{
+    border : 1px solid #003399;
+}
+.hid_value{
+    padding:3px;
+    border:1px solid #ccc;
+    background:#f9f9ec !important;
+    color:#000;
+}
+
+.input_txt{
+    border : 1px solid #003399;
+    color : #000;
+    background-color : #FFF;
+    padding : 3px;
+    font-family : Arial;
+    font-size : 12px;
+    
+    font-weight : bold;
+    width : 150px;
+}
+
+
+.input_txts{
+    border : 1px solid #003399;
+    color : #000;
+    background-color : #FFF;
+    padding : 3px;
+    font-family : Arial;
+    font-size : 12px;    
+    font-weight : bold;
+    width : 150px;
+}
+
+.input_active{
+    border : 1px solid #003399;
+    color : #000;
+    background-color : #FFF;
+    padding : 3px;
+    font-family : Arial;
+    font-size : 12px;
+    
+    font-weight : bold;
+    width : 150px;
+}
+
+
+.input_txt_f{
+    border : 1px solid #003399;
+    color : #000;
+    background-color : #fff;
+    padding : 3px;
+    font-family : Arial;
+    font-size : 12px;
+    font-weight : bold;
+    width : 150px;
+}
+
+.input_number {
+    border : 1px solid #003399;
+    text-align: left;
+    width : 100px;
+    font-size : 12px;
+    font-weight : bold;
+    color : #000;
+}
+
+
+.input_disable{
+    border:1px solid #ccc;
+    background:transparent;
+}
+
+.g_col_fixed{
+    background: #f9f9ec !important;
+}
+
+
+.g_input_amounts{
+    border: none;
+    width: 100%;
+    font-size: 12px;
+    height:25px;
+    color:#000000;
+    border:dotted 1px #ccc;
+    width:120px;
+    text-align:right;
+ 
+    
+
+}

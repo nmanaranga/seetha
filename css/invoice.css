@@ -1,0 +1,65 @@
+.tb_rpt_head_th {
+    border: 1px solid #333;
+    font-size : 13px;
+    font-family : Arial;
+    font-weight : bold;
+}
+
+.tb_rpt_row_td {
+    font-size : 12px;
+    font-family : Arial;
+}
+
+.tb_rpt_head_tr{
+
+}
+
+.tb_rpt_row_td_alt{
+    font-size : 12px;
+    font-family : Arial;
+}
+
+.text {
+    font-size : 12px;
+    font-family : Arial;
+    font-weight : bold;
+    text-align : right;
+}
+
+.amount {
+    font-size : 12px;
+    font-family : Arial;
+    font-weight : bold;
+    text-align : right;
+    width : 100px;
+}
+
+#datetime {
+    font-size : 10px;
+    font-family : Arial;
+}
+
+#head {
+    text-align : center;
+    font-family: Times;
+    font-size : 24px;
+    font-weight : bold;
+}
+
+.inv_det {
+    text-align : right;
+}
+
+.inv_det td {
+    font-size : 12px;
+    font-family : Arial;
+    font-weight : bold;
+    text-align : right;
+}
+
+.company {
+    width : 100mm;
+    font-size : 12px;
+    font-family : Arial;
+    font-weight : bold;
+}
